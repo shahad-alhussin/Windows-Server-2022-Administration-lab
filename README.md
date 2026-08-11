@@ -48,7 +48,7 @@ Windows-Server-Infrastructure-Lab
 * Used PowerShell to automate OU creation.
 * Verified the structure using Active Directory Users and Computers.
 
-### 02 — DNS & DHCP ⏳
+### 02 — DNS & DHCP ✅
 
 Planned:
 
@@ -57,7 +57,7 @@ Planned:
 * IP address allocation
 * DNS and gateway options
 
-### 03 — Group Policy ⏳
+### 03 — Group Policy ✅
 
 Planned:
 
