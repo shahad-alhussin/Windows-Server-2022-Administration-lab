@@ -1,66 +1,48 @@
-Windows Server Infrastructure Lab
+# Windows Server 2022 Administration Lab
 
-A hands-on Windows Server lab designed to simulate a small enterprise IT environment.
+A hands-on Windows Server 2022 lab designed to simulate a small enterprise IT environment.
 
-Project Overview
+## Project Overview
 
-This project demonstrates practical Windows Server administration and infrastructure configuration in a controlled virtual lab environment.
+This project demonstrates practical Windows Server administration and IT infrastructure configuration in a controlled virtual lab environment.
 
-The lab focuses on Active Directory, DNS, DHCP, Group Policy, and PowerShell automation.
+The lab focuses on:
 
-Environment
+- Active Directory Domain Services (AD DS)
+- Organizational Units (OUs), users, and security groups
+- DNS and DHCP
+- Group Policy
+- File Server and NTFS permissions
+- PowerShell automation
+- Windows Server administration fundamentals
 
-* Windows Server
-* Active Directory Domain Services (AD DS)
-* DNS
-* DHCP
-* Group Policy
-* PowerShell
-* VirtualBox
+## Environment
 
-Project Structure
+- **Windows Server 2022**
+- **Active Directory Domain Services (AD DS)**
+- **DNS**
+- **DHCP**
+- **Group Policy**
+- **File Server**
+- **PowerShell**
+- **Oracle VirtualBox**
+- **Domain:** `rev.local`
 
-Windows-Server-Infrastructure-Lab
-│
-├── 01-Active-Directory
-├── 02-DNS-DHCP
-└── 03-Group-Policy
+## Infrastructure Overview
 
-Current Progress
-
-01 — Active Directory ✅
-
-* Configured the rev.local domain environment.
-* Created departmental Organizational Units:
-    * IT
-    * HR
-    * Finance
-    * Management
-* Created separate Users and Computers OUs.
-* Created and verified an IT test user.
-* Used PowerShell to automate OU creation.
-* Verified the directory structure using Active Directory Users and Computers.
-
-02 — DNS & DHCP ✅
-
-* Configured and verified DNS.
-* Configured DHCP scope and IP address allocation.
-* Configured DNS and default gateway options.
-* Tested network connectivity and address assignment.
-
-03 — Group Policy ✅
-
-* Configured and tested Group Policy.
-* Applied security and password policies.
-* Tested policy application on domain users and computers.
-
-Skills Demonstrated
-
-* Windows Server Administration
-* Active Directory
-* DNS & DHCP
-* Group Policy Management
-* PowerShell Automation
-* User & Organizational Unit Management
-* Basic Network Troubleshooting
-* IT Infrastructure Administration
+```text
+Windows Server 2022
+        │
+        ├── Active Directory
+        │     ├── Organizational Units
+        │     ├── Users
+        │     └── Security Groups
+        │
+        ├── DNS
+        │
+        ├── DHCP
+        │
+        ├── Group Policy
+        │
+        └── File Server
+              └── NTFS Permissions
