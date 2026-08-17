@@ -1,48 +1,47 @@
 # Windows Server 2022 Administration Lab
 
-A hands-on Windows Server 2022 lab designed to simulate a small enterprise IT environment.
+Hands-on lab for practicing Windows Server administration and basic IT infrastructure management using Windows Server 2022.
 
 ## Project Overview
 
-This project demonstrates practical Windows Server administration and IT infrastructure configuration in a controlled virtual lab environment.
-
-The lab focuses on:
-
-- Active Directory Domain Services (AD DS)
-- Organizational Units (OUs), users, and security groups
-- DNS and DHCP
-- Group Policy
-- File Server and NTFS permissions
-- PowerShell automation
-- Windows Server administration fundamentals
+This project covers the setup and administration of a Windows Server environment, including Active Directory, user and group management, DNS, DHCP, Group Policy, File Server administration, and PowerShell.
 
 ## Environment
 
-- **Windows Server 2022**
-- **Active Directory Domain Services (AD DS)**
-- **DNS**
-- **DHCP**
-- **Group Policy**
-- **File Server**
-- **PowerShell**
-- **Oracle VirtualBox**
-- **Domain:** `rev.local`
+- Windows Server 2022
+- Active Directory Domain Services (AD DS)
+- DNS
+- DHCP
+- Group Policy (GPO)
+- PowerShell
+- Oracle VirtualBox
 
-## Infrastructure Overview
+## Tasks Completed
 
-```text
-Windows Server 2022
-        │
-        ├── Active Directory
-        │     ├── Organizational Units
-        │     ├── Users
-        │     └── Security Groups
-        │
-        ├── DNS
-        │
-        ├── DHCP
-        │
-        ├── Group Policy
-        │
-        └── File Server
-              └── NTFS Permissions
+- Installed and configured Windows Server 2022
+- Configured Active Directory Domain Services
+- Created the `rev.local` domain
+- Created Organizational Units (OUs)
+- Created and managed user accounts
+- Created security groups
+- Configured DNS
+- Configured DHCP scope and reservations
+- Created and applied Group Policy Objects (GPOs)
+- Configured basic workstation restrictions
+- Configured departmental shared folders
+- Applied NTFS permissions
+- Used PowerShell for administration and automation
+- Tested connectivity and verified configured services
+
+## Skills Practiced
+
+- Windows Server Administration
+- Active Directory
+- User and Group Management
+- DNS & DHCP
+- Group Policy
+- File Server Administration
+- NTFS Permissions
+- PowerShell
+- Basic Network Administration
+- System Troubleshooting
